@@ -1,5 +1,16 @@
 #/* Age Category Detector */
 
+# Age Category Rules
+#
+# Age   | Category
+# -------------------------
+# 0     | Infant
+# 1–12  | Child
+# 13–19 | Teenager
+# 20–59 | Adult
+# ≥60   | Elderly
+#-----------------------------------------------------------------------------------------
+
 
 age = int(input("Enter the age : "))
 
